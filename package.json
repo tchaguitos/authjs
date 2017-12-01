@@ -1,0 +1,37 @@
+{
+  "name": "authjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tchaguitos/authjs.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Bcrypt",
+    "Mongoose",
+    "JWT",
+    "Auth"
+  ],
+  "author": "Thiago Brasil <tchaguitos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tchaguitos/authjs/issues"
+  },
+  "homepage": "https://github.com/tchaguitos/authjs#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
