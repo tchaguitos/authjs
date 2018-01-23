@@ -1,5 +1,5 @@
 jwtConfig = {
-  'secret': 'sua-palavra-secreta'
+  'secret': process.env.SECRET
 }
 
 module.exports = jwtConfig;
